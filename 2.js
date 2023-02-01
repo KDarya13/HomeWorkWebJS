@@ -4,10 +4,10 @@ Cоздать функцию greeting, которая принимает имя 
 
 Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда данное значение.*/
 
-function nameUser(name) {
+function greeting(name) {
 
-    alert(`Привет, ${name} !`);
+    console.log(`Привет, ${name} !`);
 }
 
 const user = prompt("Давайте знакомиться. Введите ваше имя: ");
-nameUser(user);
+console.log(greeting(user));
